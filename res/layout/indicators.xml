@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip"
+    android:id="@+id/indicators_frame"
+     >
+     <!--  markets -->
+     
+     <LinearLayout
+     			android:gravity="center"
+     			android:layout_gravity="center"
+			    android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"> 
+	    <LinearLayout
+	    	android:id="@+id/markets"
+		    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:gravity="center"
+		    android:layout_gravity="center"
+		    android:layout_height="wrap_content" >
+			    <LinearLayout
+			    android:paddingRight="10dip"
+			    android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"> 
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_gravity="center"
+				    android:layout_height="wrap_content"
+				    style="@style/key"
+				    android:id="@+id/ind1_key" />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    style="@style/val"
+				    android:id="@+id/ind1_val"
+				    />
+			</LinearLayout>
+			<LinearLayout
+			    android:orientation="vertical"
+			    android:paddingRight="10dip"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"  > 
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    style="@style/key"
+				    android:id="@+id/ind2_key" />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    style="@style/val"
+				    android:id="@+id/ind2_val"
+				    />
+			</LinearLayout>    
+			<LinearLayout
+			    android:orientation="vertical"
+			    android:paddingRight="10dip"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"  > 
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    style="@style/key"
+				    android:id="@+id/ind3_key" />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    android:id="@+id/ind3_val"
+				    style="@style/val"
+				    />
+			</LinearLayout>
+			<LinearLayout
+			    android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"  > 
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    style="@style/key"
+				    android:id="@+id/ind4_key" />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    android:id="@+id/ind4_val"
+				    style="@style/val"
+				    />
+			</LinearLayout>
+	    </LinearLayout>
+	    
+	    
+	    <!-- currencies -->
+	    
+	    <LinearLayout
+	    	android:id="@+id/markets"
+		    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:gravity="center"
+		    android:layout_height="wrap_content" >
+		    
+	        		<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    style="@style/key"
+				    android:id="@+id/ind5_key"
+				    android:paddingRight="5dip"
+				    />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    
+				    android:id="@+id/ind5_val"
+				    style="@style/val"
+				    android:paddingRight="5dip"
+				    />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    style="@style/key"
+				    android:id="@+id/ind6_key"
+				    android:paddingRight="5dip"
+				    />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:id="@+id/ind6_val"
+				    style="@style/val"
+				    android:paddingRight="5dip"
+				    />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    style="@style/key"
+				    android:id="@+id/ind7_key"
+				    android:paddingRight="5dip"
+				    />
+				    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    style="@style/val"
+				    android:id="@+id/ind7_val"
+				    android:textSize="16dip"
+				    android:textStyle="bold"
+				    />
+				    
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

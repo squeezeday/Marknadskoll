@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Marknadskoll</string>
+    <string name="indicators">Marknadsindikatorer</string>
+    <string name="ok">Spara</string>
+    <string name="update_frequency">Uppdateringsfrekvens</string>
+    <string-array name="update_frequency_prompt">
+    	<item>Varje kvart</item>
+    	<item>Varje timme</item>
+    	<item>Var fjärde timme</item>
+    	<item>En gång per dag</item>
+    </string-array>
+    <string name="black_text">Svart text</string>
+    <string name="text_color_default">Som standard är textfärgen vit</string>
+    <string name="choose_color">Välj färg</string>
+    <string name="loading">Uppdaterar marknadsdata..</string>
+    <string name="error">Kunde inte uppdatera marknadsdata</string>
+</resources>

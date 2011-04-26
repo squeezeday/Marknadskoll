@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <style name="key">
+    <!--  item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">0</item>
+    <item name="android:shadowRadius">1.4</item>
+    <item name="android:padding">2dp</item-->
+    <item name="android:textSize">14dp</item>
+  </style>
+  <style name="val">
+    <!--item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">0</item>
+    <item name="android:shadowRadius">1.4</item-->
+    <item name="android:textSize">16dp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+</resources>
